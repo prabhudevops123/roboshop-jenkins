@@ -1,5 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-definition plugin="workflow-job">
+    <actions/>
     <description></description>
     <keepDependencies>false</keepDependencies>
     <properties/>
@@ -16,7 +17,7 @@
                     <name>*/main</name>
                 </hudson.plugins.git.BranchSpec>
             </branches>
-            <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfiguration                     s>
+            <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
             <submoduleCfg class="empty-list"/>
             <extensions/>
         </scm>
