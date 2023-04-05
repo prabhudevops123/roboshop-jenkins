@@ -1,8 +1,8 @@
 
-folders = ["Infra"]
-jobs = [
-    { name = "roboshop", folder = "Infra", repo_url = "https://github.com/prabhudevops123/roboshop-infra-new" }
-  ]
+#folders = ["Infra"]
+#jobs = [
+#    { name = "roboshop", folder = "Infra", repo_url = "https://github.com/prabhudevops123/roboshop-infra-new" }
+#  ]
 
 
 #variable "folders" {
