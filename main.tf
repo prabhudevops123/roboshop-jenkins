@@ -30,3 +30,14 @@ resource "jenkins_job" "job" {
   }
 }
 
+data "aws_instance" "jenkins" {
+  instance_id = "i-0c8adc8341bbc4360"
+}
+
+resource "aws_route53_record" "jenkins" {
+  zone_id = "Z04913851JPF0HITS640T"
+  name    = "jenkins.devopsprabhu.online"
+  type    = "A"
+  ttl     = 30
+  records = [data.aws_instance.jenkins.public_ip]
+}
